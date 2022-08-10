@@ -1,0 +1,33 @@
+.storybook-header {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px !important;
+  color: #1ea7fd;
+}
+.storybook-header--primary {
+  color: white;
+  background-color: #1ea7fd;
+}
+.storybook-header--secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.storybook-header--small {
+  height: 40px;
+  font-size: 12px;
+}
+.storybook-header--medium {
+  height: 50px;
+  font-size: 16px;
+}
+.storybook-header--large {
+  height: 60px;
+  font-size: 20px;
+}
